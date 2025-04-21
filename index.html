@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <!--  Font Awesome Icon Library  -->
+  <link rel="stylesheet" href="./Assets/css/all.min.css" />
+  <!--  Bootstrap Framework  -->
+  <link rel="stylesheet" href="./Assets/css/bootstrap.min.css" />
+  <!--  Main Style sheet  -->
+  <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container d-flex  flex-column border ">
+               <h1 class="text-center h2 mt-5">Smart Login System</h1>
+               <form action="login" class="d-flex justify-content-center align-items-center flex-column"  id="loginForm">
+                <input type="text" placeholder="Name" class="mt-4 mb-2" id="username">
+                <input type="password" placeholder="password" class="mb-2 mt-4" id="password">
+                <div class="checkbox d-flex mb-2 mt-4" id="terms" >
+                    <input type="checkbox" name="terms">
+                    <label for="terms">I agree to the terms & conditions</label>
+                </div>
+               <button class="btn btn-primary mb-2 m-4 rounded-pill" type="submit" id="loginBtn">Login</button>
+               <p class="mt-4">Don't have an Account? <a href="./register.html">Register</a></p>
+               </form>
+               
+            </div>
+        </section>
+    </main>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./Assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./Assets/js/index.js"></script>
+
+</body>
+</html>
